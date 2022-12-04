@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128.713mm"
+   height="211.89999mm"
+   viewBox="0 0 128.713 211.9"
+   version="1.1"
+   id="svg162186"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="FelsenLinksOBS.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview162188"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="397"
+     inkscape:cy="562"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs162183" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g163835"
+       transform="translate(-254.20207,-105.71665)">
+      <path
+         id="path2300609"
+         style="display:inline;mix-blend-mode:normal;fill:#19253c;fill-opacity:1;stroke-width:0.91313"
+         d="m 269.98769,105.71665 -15.78541,16.61472 V 317.61669 H 382.9146 v -17.988 C 362.96268,275.10204 328.16237,265.90703 328.16237,265.90703 L 306.40238,163.80932 282.10452,142.89825 Z"
+         inkscape:label="Felsen Hintergrund" />
+      <path
+         id="path2300613"
+         style="display:inline;mix-blend-mode:normal;fill:#1c2e49;fill-opacity:1;stroke-width:0.91313"
+         inkscape:label="Felsen Midlights"
+         d="m 276.99086,127.24826 -11.01276,15.53239 12.099,72.48394 -4.00854,-69.84534 8.02638,-2.52026 z m 29.40234,36.56986 -16.76435,13.89838 v 59.25375 l 0.58963,11.15177 4.72426,-5.21674 -3.81682,6.50142 -0.83561,0.0646 3.60443,68.1452 h 5.48597 l 3.50624,-40.45025 25.26668,-11.25047 z" />
+      <path
+         id="path2300623"
+         style="display:inline;mix-blend-mode:normal;fill:#1c2e49;fill-opacity:1;stroke-width:0.91313"
+         d="m 254.20228,238.97858 v 5.61611 h 11.77619 l 11.01286,3.9272 -8.34659,-7.57971 z"
+         inkscape:label="Felsen Shadow" />
+      <path
+         id="path2300617"
+         style="display:inline;mix-blend-mode:normal;fill:#203657;fill-opacity:1;stroke-width:0.91313"
+         inkscape:label="Felsen Highlight"
+         d="m 269.97682,105.72554 -15.77475,16.60054 v 22.48597 l 11.77654,-2.0314 11.01277,-15.53239 z m 12.11812,37.17345 -8.02638,2.52026 8.02638,21.62297 v 4.20956 l 7.53339,6.46524 16.76539,-13.89786 z m -27.89287,88.16102 v 6.4363 l 0.76378,1.59267 9.88002,6.12624 v 5.2e-4 l 10.08104,34.66248 h 2.06395 l 5.10202,-0.14624 0.003,5.1e-4 11.65148,35.06453 -10.45621,-36.07945 -3.84369,-0.81132 -13.46843,-33.31166 -7.41557,-5.02192 z m 73.95156,34.85627 -25.26668,11.24996 c 0,0 16.71942,27.53992 37.75791,33.63051 21.04764,6.09055 31.61305,4.01784 31.61305,4.01784 l 10.6469,-15.17633 C 355.7027,270.20813 328.15363,265.91628 328.15363,265.91628 Z" />
+      <path
+         id="path2300631"
+         style="display:inline;mix-blend-mode:normal;fill:#324769;fill-opacity:1;stroke-width:0.91313"
+         inkscape:label="Felsen Highest Highlight"
+         d="m 286.78871,175.27892 2.83962,5.83479 2.94039,-5.83479 z m 8.15403,67.62636 -10.912,7.04919 5.91747,-1.53376 z" />
+    </g>
+  </g>
+</svg>

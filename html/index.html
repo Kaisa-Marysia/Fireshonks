@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    #movingDiv {
+      position: absolute;
+      width: 1920px;
+      height: 200px;
+      background-image: url("Bauchbinde-Banner.png");
+      color: red;
+      left: -1920px;
+    }
+    img {
+    position: absolute;
+    left: -5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="movingDiv">
+    <img src="Bauchbinde-Fireshonks.png" alt="Blah"><img src="Bauchbinde-Blah.png" alt="Shonk">
+  </div>
+  <script>
+   const params = new URLSearchParams(window.location.search)
+    for (const param of params) {
+    console.log(param)
+    }
+
+  let i = 1;
+  let x = 1
+  
+  setTimeout(
+    function movein() {
+    setTimeout(function() {
+      const div = document.getElementById("movingDiv"); div.style.left = div.offsetLeft + 10 + "px";
+      i++;
+      if (i < 193) {
+      movein();
+      }
+    },0)
+  }, params.getAll('start'))
+
+  setTimeout(
+    function moveout() {
+    setTimeout(function() {
+      const div = document.getElementById("movingDiv"); div.style.left = div.offsetLeft + -10 + "px";
+      x++;
+      if (x < 193) {
+      moveout();
+      }
+    },0)
+  }, params.getAll('end'))
+
+  </script>
+</body>
+</html>

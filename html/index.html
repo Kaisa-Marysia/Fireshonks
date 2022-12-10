@@ -1,56 +1,92 @@
 <!doctype html>
 <html>
-<head>
-  <style>
-    #movingDiv {
+  <head>
+    <style>
+      #lowerthird {
       position: absolute;
       width: 1920px;
       height: 200px;
       background-image: url("Bauchbinde-Banner.png");
-      color: red;
+      color: white;
       left: -1920px;
-    }
-    img {
-    position: absolute;
-    left: -5px;
-    }
-  </style>
-</head>
-<body>
-  <div id="movingDiv">
-    <img src="Bauchbinde-Fireshonks.png" alt="Blah"><img src="Bauchbinde-Blah.png" alt="Shonk">
-  </div>
-  <script>
-   const params = new URLSearchParams(window.location.search)
-    for (const param of params) {
-    console.log(param)
-    }
-
-  let i = 1;
-  let x = 1
-  
-  setTimeout(
-    function movein() {
-    setTimeout(function() {
-      const div = document.getElementById("movingDiv"); div.style.left = div.offsetLeft + 10 + "px";
-      i++;
-      if (i < 193) {
-      movein();
       }
-    },0)
-  }, params.getAll('start'))
-
-  setTimeout(
-    function moveout() {
-    setTimeout(function() {
-      const div = document.getElementById("movingDiv"); div.style.left = div.offsetLeft + -10 + "px";
-      x++;
-      if (x < 193) {
-      moveout();
+      img {
+      position: absolute;
+      left: -5px;
       }
-    },0)
-  }, params.getAll('end'))
-
-  </script>
-</body>
+      .title {
+      width: 960px;
+      margin-left: 500px;
+      margin-top: 30px;
+      font-size: xx-large;
+      font-weight: bold;
+      font-family: sans-serif;
+      }
+      .author {
+      width: 960px;
+      margin-left: 500px;
+      margin-top: 30px;
+      font-size: x-large;
+      font-weight: bold;
+      font-family: sans-serif;
+      }
+      p {
+      white-space: break-spaces;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 900px;
+      }
+    </style>
+    <script src="jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="lowerthird">
+      <img src="Bauchbinde-Fireshonks.png" alt="Blah"><img src="Bauchbinde-Blah.png" alt="Shonk">
+      <div id="content">
+        <p class="title"></p><p class="author"></p>
+      </div>
+    </div>
+      <script>
+        const params2 = new URLSearchParams(window.location.search)
+          for (const param of params2) {
+          console.log(param)
+          }
+          $.getJSON('https://pretalx.c3voc.de/fire-shonks-2022/schedule/export/schedule.json', function(data) {
+          var text = `${data.schedule.conference.days[params2.getAll('day')].rooms["Fireshonks-Stream"][params2.getAll('track')].title}`
+          $(".title").html(text);
+          });
+          $.getJSON('https://pretalx.c3voc.de/fire-shonks-2022/schedule/export/schedule.json', function(data) {
+          var text2 = `${data.schedule.conference.days[params2.getAll('day')].rooms["Fireshonks-Stream"][params2.getAll('track')].persons[0].public_name}`
+          $(".author").html(text2);
+          });
+      </script>
+      <script>
+      const params = new URLSearchParams(window.location.search)
+        for (const param of params) {
+        console.log(param)
+        }
+      let i = 1;
+      let x = 1
+      setTimeout(
+        function movein() {
+        setTimeout(function() {
+          const div = document.getElementById("lowerthird"); div.style.left = div.offsetLeft + 10 + "px";
+          i++;
+          if (i < 193) {
+          movein();
+          }
+        },0)
+      }, params.getAll('start'))
+      setTimeout(
+        function moveout() {
+        setTimeout(function() {
+          const div = document.getElementById("lowerthird"); div.style.left = div.offsetLeft + -10 + "px";
+          x++;
+          if (x < 193) {
+          moveout();
+          }
+        },0)
+      }, params.getAll('end'))
+      </script>
+  </body>
 </html>

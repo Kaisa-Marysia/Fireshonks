@@ -52,5 +52,5 @@ The MIT License is simple and easy to understand and it places almost no restric
 
 You are free to use the Project in any other project (even commercial projects) as long as the copyright header is left intact.
 
-
-       
+# Python Webserver
+You can execute `python -m http.server 9999` in the folder where the index.html is located. This makes the belly band accessible under https://127.0.0.1:9999/index.html?start=1000&end=5000&day=2&track=3

@@ -10,38 +10,47 @@
       color: white;
       left: -1920px;
       }
-      img {
+      #logo {
       position: absolute;
-      left: -5px;
+      left: 17px;
+      top: 8px;
+      z-index: 1000;
+      }
+      #shonk {
+      position: absolute;
+      left: -10px;
       }
       .title {
       width: 960px;
       margin-left: 500px;
       margin-top: 30px;
-      font-size: xx-large;
+      font-size: 2.3em;
       font-weight: bold;
       font-family: sans-serif;
+      margin-bottom: 0px;
       }
       .author {
       width: 960px;
       margin-left: 500px;
-      margin-top: 30px;
       font-size: x-large;
-      font-weight: bold;
       font-family: sans-serif;
+      margin-top: 0px;
       }
       p {
       white-space: break-spaces;
       overflow: hidden;
       text-overflow: ellipsis;
-      max-width: 900px;
+      max-width: 75ch;
       }
     </style>
     <script src="jquery.min.js"></script>
   </head>
   <body>
+    <img id="logo" src="Bauchbinde-Fireshonks.png" alt="Blah">
     <div id="lowerthird">
-      <img src="Bauchbinde-Fireshonks.png" alt="Blah"><img src="Bauchbinde-Blah.png" alt="Shonk">
+      <div id="lowerthirdlogo">
+      </div>
+      <img id="shonk" src="Bauchbinde-Blah.png" alt="Shonk">
       <div id="content">
         <p class="title"></p><p class="author"></p>
       </div>
@@ -55,7 +64,7 @@
           var text = `${data.schedule.conference.days[params2.getAll('day')].rooms["Fireshonks-Stream"][params2.getAll('track')].title}`
           $(".title").html(text);
           });
-          $.getJSON('https://pretalx.c3voc.de/fire-shonks-2022/schedule/export/schedule.json', function(data) {
+          $.getJSON('https://pretalx.c3voc.de/fire-shonks-2022/schedule/export/schedule.json', function(data) {  
           var text2 = `${data.schedule.conference.days[params2.getAll('day')].rooms["Fireshonks-Stream"][params2.getAll('track')].persons[0].public_name}`
           $(".author").html(text2);
           });

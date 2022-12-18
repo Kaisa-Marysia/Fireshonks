@@ -1,11 +1,11 @@
 # TL;DR
 
 Options you must set: <br>
-`start=` Slide in after loading site (ms)
-`end=` Slide out after loading site (ms)
-`day=` Day index. (0-3)
-`track=` Track index. (0-N)
-`room=` Room name (Fireshonks-Stream OR Fireshonks%20Workshop)
+`start=` Slide in after loading site (ms) <br>
+`end=` Slide out after loading site (ms) <br>
+`day=` Day index. (0-3) <br>
+`track=` Track index. (0-N) <br>
+`room=` Room name (Fireshonks-Stream OR Fireshonks%20Workshop) <br>
 
 # Docu
 

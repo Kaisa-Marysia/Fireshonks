@@ -1,0 +1,149 @@
+Fireshonks Workshop
+"How to prepare files for lasercutting (Inkscape Workshop)"
+?start=1000&end=5000&day=0&track=0&room=Fireshonks%20Workshop
+---------------------
+"Gemütliches Stricktreffen"
+?start=1000&end=5000&day=0&track=1&room=Fireshonks%20Workshop
+---------------------
+"Let there be flowers!"
+?start=1000&end=5000&day=0&track=2&room=Fireshonks%20Workshop
+---------------------
+"AskMeAnything Quantum Computing"
+?start=1000&end=5000&day=0&track=3&room=Fireshonks%20Workshop
+---------------------
+"Queerbrunch! Queeres sitzen und essen!"
+?start=1000&end=5000&day=1&track=0&room=Fireshonks%20Workshop
+---------------------
+"Hexis - Quilting on the go: EPP (English Paper Piecing) Tutorial für Anfänger*innen"
+?start=1000&end=5000&day=1&track=1&room=Fireshonks%20Workshop
+---------------------
+"Haecksen-Frühstück"
+?start=1000&end=5000&day=1&track=2&room=Fireshonks%20Workshop
+---------------------
+"Hack yourself - Digitale Selbstverteidigung"
+?start=1000&end=5000&day=1&track=3&room=Fireshonks%20Workshop
+---------------------
+"Netzwerken (Haecksen only)"
+?start=1000&end=5000&day=1&track=4&room=Fireshonks%20Workshop
+---------------------
+"Code of Conduct: Bausatz für ein gutes Miteinander? Ein Austausch."
+?start=1000&end=5000&day=1&track=5&room=Fireshonks%20Workshop
+---------------------
+"Philosophinnen Workshop"
+?start=1000&end=5000&day=2&track=0&room=Fireshonks%20Workshop
+---------------------
+"Datenschutzrechte zum Mitmachen – DSGVO-Anfragen stellen mit Datenanfragen.de"
+?start=1000&end=5000&day=2&track=1&room=Fireshonks%20Workshop
+---------------------
+"Spinning around: Anfänger*innen-Workshop im Handspinnen"
+?start=1000&end=5000&day=2&track=2&room=Fireshonks%20Workshop
+---------------------
+"Betreutes Hacken - Senior und die Juniorcrew"
+?start=1000&end=5000&day=2&track=3&room=Fireshonks%20Workshop
+---------------------
+"Barrierefrei posten: Bildbeschreibungen auf Social Media"
+?start=1000&end=5000&day=3&track=0&room=Fireshonks%20Workshop
+---------------------
+"Neurodivers-Treffen von Haecksen für FINTA"
+?start=1000&end=5000&day=3&track=1&room=Fireshonks%20Workshop
+---------------------
+"Wir wollen mit euren Avataren (2D-)Schach spielen"
+?start=1000&end=5000&day=3&track=2&room=Fireshonks%20Workshop
+---------------------
+#####################
+
+#####################
+Fireshonks-Stream
+"Opening"
+?start=1000&end=5000&day=0&track=0&room=Fireshonks-Stream
+---------------------
+"How to prepare files for lasercutting (a brief introduction)"
+?start=1000&end=5000&day=0&track=1&room=Fireshonks-Stream
+---------------------
+"Best-of Digitalzwangmelder"
+?start=1000&end=5000&day=0&track=2&room=Fireshonks-Stream
+---------------------
+"Swarm Support Tools - Digitalcourage ♥ Free Software"
+?start=1000&end=5000&day=0&track=3&room=Fireshonks-Stream
+---------------------
+"Datenschutz sabotieren, aber richtig"
+?start=1000&end=5000&day=0&track=4&room=Fireshonks-Stream
+---------------------
+"Haste mal ne Mark? Wieso Du für digitale Dienste Geld nehmen solltest."
+?start=1000&end=5000&day=0&track=5&room=Fireshonks-Stream
+---------------------
+"Leben mit Borderline"
+?start=1000&end=5000&day=0&track=6&room=Fireshonks-Stream
+---------------------
+"Von der Mailbox bis zum Fediverse (Kamingespräch)"
+?start=1000&end=5000&day=0&track=7&room=Fireshonks-Stream
+---------------------
+"Platform System Interface - Design und Evaluation holistischer Computerarchitektur"
+?start=1000&end=5000&day=1&track=0&room=Fireshonks-Stream
+---------------------
+"10.000 Seiten später – Welche Spuren der Klimabericht bei mir hinterlassen hat"
+?start=1000&end=5000&day=1&track=1&room=Fireshonks-Stream
+---------------------
+"Kann Quick Freeze die Vorratsdatenspeicherung endlich beerdigen?"
+?start=1000&end=5000&day=1&track=2&room=Fireshonks-Stream
+---------------------
+"Haecksen gegen Cyberstalking  ein Bericht vom Anti-Stalking Projekt"
+?start=1000&end=5000&day=1&track=3&room=Fireshonks-Stream
+---------------------
+"DB Schnüffelnavigator"
+?start=1000&end=5000&day=1&track=4&room=Fireshonks-Stream
+---------------------
+"Kein Perso ohne Finger(abdrücke) mehr - was tun?"
+?start=1000&end=5000&day=1&track=5&room=Fireshonks-Stream
+---------------------
+"Hacking a sat receiver"
+?start=1000&end=5000&day=1&track=6&room=Fireshonks-Stream
+---------------------
+"Operation Mindfuck Vol. 6"
+?start=1000&end=5000&day=1&track=7&room=Fireshonks-Stream
+---------------------
+"Tracking in Apps: Ist das legal? – Eine Übersicht über die mobile Trackinglandschaft"
+?start=1000&end=5000&day=2&track=0&room=Fireshonks-Stream
+---------------------
+"Barrierearme Datenvisualisierungen im Web"
+?start=1000&end=5000&day=2&track=1&room=Fireshonks-Stream
+---------------------
+"Strömungen, Kontroversen und Paradoxien im Anarchismus"
+?start=1000&end=5000&day=2&track=2&room=Fireshonks-Stream
+---------------------
+"#CCS - Chaotischer Catalysator Stipendien"
+?start=1000&end=5000&day=2&track=3&room=Fireshonks-Stream
+---------------------
+"Erklärhaj experimentiert"
+?start=1000&end=5000&day=2&track=4&room=Fireshonks-Stream
+---------------------
+"Post-Quantum Cryptography: Detours, delays, and disasters"
+?start=1000&end=5000&day=2&track=5&room=Fireshonks-Stream
+---------------------
+"How to become an OpenStreetMap pro"
+?start=1000&end=5000&day=2&track=6&room=Fireshonks-Stream
+---------------------
+"Die bequemsten Gepäckablagen im Fernverkehr der Deutschen Bahn"
+?start=1000&end=5000&day=2&track=7&room=Fireshonks-Stream
+---------------------
+"Barrierefrei posten: Bildbeschreibungen auf Social Media"
+?start=1000&end=5000&day=3&track=0&room=Fireshonks-Stream
+---------------------
+"Logrotten - \"It's not a bug\""
+?start=1000&end=5000&day=3&track=1&room=Fireshonks-Stream
+---------------------
+"Text Embeddings für Anfänger"
+?start=1000&end=5000&day=3&track=2&room=Fireshonks-Stream
+---------------------
+"Informationen bewerten — Eine Zeitreise durch die Welt der Propaganda, Fake News und Desinformation"
+?start=1000&end=5000&day=3&track=3&room=Fireshonks-Stream
+---------------------
+"oreboot auf RISC-V - Vergleichende Analyse zweier Implementierungen"
+?start=1000&end=5000&day=3&track=4&room=Fireshonks-Stream
+---------------------
+"Die Technik hinter Teletext"
+?start=1000&end=5000&day=3&track=5&room=Fireshonks-Stream
+---------------------
+"Closing"
+?start=1000&end=5000&day=3&track=6&room=Fireshonks-Stream
+---------------------

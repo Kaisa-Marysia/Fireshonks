@@ -61,12 +61,28 @@
           console.log(param)
           }
           $.getJSON('https://pretalx.c3voc.de/fire-shonks-2022/schedule/export/schedule.json', function(data) {
-          var text = `${data.schedule.conference.days[params2.getAll('day')].rooms["Fireshonks-Stream"][params2.getAll('track')].title}`
+          var text = `${data.schedule.conference.days[params2.getAll('day')].rooms[params2.getAll('channel')][params2.getAll('track')].title}`
           $(".title").html(text);
           });
           $.getJSON('https://pretalx.c3voc.de/fire-shonks-2022/schedule/export/schedule.json', function(data) {  
-          var text2 = `${data.schedule.conference.days[params2.getAll('day')].rooms["Fireshonks-Stream"][params2.getAll('track')].persons[0].public_name}`
-          $(".author").html(text2);
+          var arrpersons = `${data.schedule.conference.days[params2.getAll('day')].rooms[params2.getAll('channel')][params2.getAll('track')].persons}`;
+          let speakercount = arrpersons.split(",").length;
+
+          let counter = 0;
+          var text = [];
+          var textmerge = [];
+          while (counter < speakercount) {
+              text[counter] = `${data.schedule.conference.days[params2.getAll('day')].rooms[params2.getAll('channel')][params2.getAll('track')].persons[counter].public_name}`
+          console.log(text[counter]);
+          textmerge += text[counter];
+          counter++;
+          if (counter < speakercount) {
+            textmerge += ", ";
+          } else {
+            textmerge += "";
+          }
+          }
+          $(".author").html(textmerge);
           });
       </script>
       <script>

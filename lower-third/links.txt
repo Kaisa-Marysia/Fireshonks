@@ -29,7 +29,7 @@ Fireshonks Workshop
 "Code of Conduct: Bausatz für ein gutes Miteinander? Ein Austausch."
 ?start=1000&end=5000&day=1&track=5&room=Fireshonks%20Workshop
 ---------------------
-"Philosophinnen Workshop"
+"Neurodivers-Treffen von Haecksen für FINTA"
 ?start=1000&end=5000&day=2&track=0&room=Fireshonks%20Workshop
 ---------------------
 "Datenschutzrechte zum Mitmachen – DSGVO-Anfragen stellen mit Datenanfragen.de"
@@ -44,7 +44,7 @@ Fireshonks Workshop
 "Barrierefrei posten: Bildbeschreibungen auf Social Media"
 ?start=1000&end=5000&day=3&track=0&room=Fireshonks%20Workshop
 ---------------------
-"Neurodivers-Treffen von Haecksen für FINTA"
+"Philosophinnen Workshop"
 ?start=1000&end=5000&day=3&track=1&room=Fireshonks%20Workshop
 ---------------------
 "Wir wollen mit euren Avataren (2D-)Schach spielen"
@@ -57,26 +57,23 @@ Fireshonks-Stream
 "Opening"
 ?start=1000&end=5000&day=0&track=0&room=Fireshonks-Stream
 ---------------------
-"How to prepare files for lasercutting (a brief introduction)"
+"How to prepare files for lasercutting (Talk)"
 ?start=1000&end=5000&day=0&track=1&room=Fireshonks-Stream
 ---------------------
-"Best-of Digitalzwangmelder"
+"Swarm Support Tools - Digitalcourage ♥ Free Software"
 ?start=1000&end=5000&day=0&track=2&room=Fireshonks-Stream
 ---------------------
-"Swarm Support Tools - Digitalcourage ♥ Free Software"
+"Datenschutz sabotieren, aber richtig"
 ?start=1000&end=5000&day=0&track=3&room=Fireshonks-Stream
 ---------------------
-"Datenschutz sabotieren, aber richtig"
+"Haste mal ne Mark? Wieso Du für digitale Dienste Geld nehmen solltest."
 ?start=1000&end=5000&day=0&track=4&room=Fireshonks-Stream
 ---------------------
-"Haste mal ne Mark? Wieso Du für digitale Dienste Geld nehmen solltest."
+"Leben mit Borderline"
 ?start=1000&end=5000&day=0&track=5&room=Fireshonks-Stream
 ---------------------
-"Leben mit Borderline"
-?start=1000&end=5000&day=0&track=6&room=Fireshonks-Stream
----------------------
 "Von der Mailbox bis zum Fediverse (Kamingespräch)"
-?start=1000&end=5000&day=0&track=7&room=Fireshonks-Stream
+?start=1000&end=5000&day=0&track=6&room=Fireshonks-Stream
 ---------------------
 "Platform System Interface - Design und Evaluation holistischer Computerarchitektur"
 ?start=1000&end=5000&day=1&track=0&room=Fireshonks-Stream
@@ -102,48 +99,54 @@ Fireshonks-Stream
 "Operation Mindfuck Vol. 6"
 ?start=1000&end=5000&day=1&track=7&room=Fireshonks-Stream
 ---------------------
-"Tracking in Apps: Ist das legal? – Eine Übersicht über die mobile Trackinglandschaft"
+"Geschlechtergerechtigkeit und Making"
 ?start=1000&end=5000&day=2&track=0&room=Fireshonks-Stream
 ---------------------
-"Barrierearme Datenvisualisierungen im Web"
+"Tracking in Apps: Ist das legal? – Eine Übersicht über die mobile Trackinglandschaft"
 ?start=1000&end=5000&day=2&track=1&room=Fireshonks-Stream
 ---------------------
-"Strömungen, Kontroversen und Paradoxien im Anarchismus"
+"Barrierearme Datenvisualisierungen im Web"
 ?start=1000&end=5000&day=2&track=2&room=Fireshonks-Stream
 ---------------------
-"#CCS - Chaotischer Catalysator Stipendien"
+"Strömungen, Kontroversen und Paradoxien im Anarchismus"
 ?start=1000&end=5000&day=2&track=3&room=Fireshonks-Stream
 ---------------------
-"Erklärhaj experimentiert"
+"#CCS - Chaotischer Catalysator Stipendien"
 ?start=1000&end=5000&day=2&track=4&room=Fireshonks-Stream
 ---------------------
-"Post-Quantum Cryptography: Detours, delays, and disasters"
+"Erklärhaj experimentiert"
 ?start=1000&end=5000&day=2&track=5&room=Fireshonks-Stream
 ---------------------
-"How to become an OpenStreetMap pro"
+"Post-Quantum Cryptography: Detours, delays, and disasters"
 ?start=1000&end=5000&day=2&track=6&room=Fireshonks-Stream
 ---------------------
-"Die bequemsten Gepäckablagen im Fernverkehr der Deutschen Bahn"
+"How to become an OpenStreetMap pro"
 ?start=1000&end=5000&day=2&track=7&room=Fireshonks-Stream
 ---------------------
-"Barrierefrei posten: Bildbeschreibungen auf Social Media"
+"Die bequemsten Gepäckablagen im Fernverkehr der Deutschen Bahn"
+?start=1000&end=5000&day=2&track=8&room=Fireshonks-Stream
+---------------------
+"Videokonferenzen: 🙈 🙉 🙊 - selbstverständlich barrierefrei! Warum Checklisten nicht ausreichen, wir aber trotzdem eine präsentieren"
 ?start=1000&end=5000&day=3&track=0&room=Fireshonks-Stream
 ---------------------
-"Logrotten - \"It's not a bug\""
+"Barrierefrei posten: Bildbeschreibungen auf Social Media"
 ?start=1000&end=5000&day=3&track=1&room=Fireshonks-Stream
 ---------------------
-"Text Embeddings für Anfänger"
+"Logrotten - \"It's not a bug\""
 ?start=1000&end=5000&day=3&track=2&room=Fireshonks-Stream
 ---------------------
-"Informationen bewerten — Eine Zeitreise durch die Welt der Propaganda, Fake News und Desinformation"
+"Text Embeddings für Anfänger"
 ?start=1000&end=5000&day=3&track=3&room=Fireshonks-Stream
 ---------------------
-"oreboot auf RISC-V - Vergleichende Analyse zweier Implementierungen"
+"Informationen bewerten — Eine Zeitreise durch die Welt der Propaganda, Fake News und Desinformation"
 ?start=1000&end=5000&day=3&track=4&room=Fireshonks-Stream
 ---------------------
-"Die Technik hinter Teletext"
+"oreboot auf RISC-V - Vergleichende Analyse zweier Implementierungen"
 ?start=1000&end=5000&day=3&track=5&room=Fireshonks-Stream
 ---------------------
-"Closing"
+"Die Technik hinter Teletext"
 ?start=1000&end=5000&day=3&track=6&room=Fireshonks-Stream
+---------------------
+"Closing"
+?start=1000&end=5000&day=3&track=7&room=Fireshonks-Stream
 ---------------------

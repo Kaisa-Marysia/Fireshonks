@@ -1,15 +1,18 @@
 Fireshonks Workshop
-"How to prepare files for lasercutting (Inkscape Workshop)"
+"Mein FEDI Server"
 ?start=1000&end=5000&day=0&track=0&room=Fireshonks%20Workshop
 ---------------------
-"Gemütliches Stricktreffen"
+"How to prepare files for lasercutting (Inkscape Workshop)"
 ?start=1000&end=5000&day=0&track=1&room=Fireshonks%20Workshop
 ---------------------
-"Let there be flowers!"
+"Gemütliches Stricktreffen"
 ?start=1000&end=5000&day=0&track=2&room=Fireshonks%20Workshop
 ---------------------
-"AskMeAnything Quantum Computing"
+"Let there be flowers!"
 ?start=1000&end=5000&day=0&track=3&room=Fireshonks%20Workshop
+---------------------
+"AskMeAnything Quantum Computing"
+?start=1000&end=5000&day=0&track=4&room=Fireshonks%20Workshop
 ---------------------
 "Queerbrunch! Queeres sitzen und essen!"
 ?start=1000&end=5000&day=1&track=0&room=Fireshonks%20Workshop
@@ -60,20 +63,23 @@ Fireshonks-Stream
 "How to prepare files for lasercutting (Talk)"
 ?start=1000&end=5000&day=0&track=1&room=Fireshonks-Stream
 ---------------------
-"Swarm Support Tools - Digitalcourage ♥ Free Software"
+"Das Fediverse steht für Vielfalt nicht für Einfalt"
 ?start=1000&end=5000&day=0&track=2&room=Fireshonks-Stream
 ---------------------
-"Datenschutz sabotieren, aber richtig"
+"Swarm Support Tools - Digitalcourage ♥ Free Software"
 ?start=1000&end=5000&day=0&track=3&room=Fireshonks-Stream
 ---------------------
-"Haste mal ne Mark? Wieso Du für digitale Dienste Geld nehmen solltest."
+"Datenschutz sabotieren, aber richtig"
 ?start=1000&end=5000&day=0&track=4&room=Fireshonks-Stream
 ---------------------
-"Leben mit Borderline"
+"Haste mal ne Mark? Wieso Du für digitale Dienste Geld nehmen solltest."
 ?start=1000&end=5000&day=0&track=5&room=Fireshonks-Stream
 ---------------------
-"Von der Mailbox bis zum Fediverse (Kamingespräch)"
+"Leben mit Borderline"
 ?start=1000&end=5000&day=0&track=6&room=Fireshonks-Stream
+---------------------
+"Von der Mailbox bis zum Fediverse (Kamingespräch)"
+?start=1000&end=5000&day=0&track=7&room=Fireshonks-Stream
 ---------------------
 "Platform System Interface - Design und Evaluation holistischer Computerarchitektur"
 ?start=1000&end=5000&day=1&track=0&room=Fireshonks-Stream

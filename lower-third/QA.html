@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      #lowerthird {
+      position: absolute;
+      width: 1920px;
+      height: 200px;
+      background-image: url("Bauchbinde-Banner.png");
+      color: white;
+      left: -1920px;
+      }
+      #logo {
+      position: absolute;
+      left: 17px;
+      top: 8px;
+      z-index: 1000;
+      }
+      #shonk {
+      position: absolute;
+      left: -10px;
+      }
+      .title {
+      width: 960px;
+      margin-left: 500px;
+      margin-top: 65px;
+      font-size: 5vw;
+      font-weight: bold;
+      font-family: sans-serif;
+      margin-bottom: 0px;
+      }
+      .author {
+      width: 960px;
+      margin-left: 500px;
+      font-size: x-large;
+      font-family: sans-serif;
+      margin-top: 0px;
+      }
+      p {
+      white-space: break-spaces;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 75ch;
+      }
+    </style>
+    <script src="jquery.min.js"></script>
+  </head>
+  <body>
+    <img id="logo" src="Bauchbinde-Fireshonks.png" alt="Blah">
+    <div id="lowerthird">
+      <div id="lowerthirdlogo">
+      </div>
+      <img id="shonk" src="Bauchbinde-Blah.png" alt="Shonk">
+      <div id="content">
+        <p class="title"></p>
+      </div>
+    </div>
+      <script>
+          const params2 = new URLSearchParams(window.location.search)
+          for (const param of params2) {
+          console.log(param)
+          }
+        $.ajax({
+          dataType: "json",
+          url: 'http://127.0.0.1:8000/fs.json',
+          type: 'GET',
+          success: function(data)
+          {  
+          var arrpersons = `${data.schedule.conference.days[2].rooms["Fireshonks-Stream"][5].answers}`;
+          let speakercount = arrpersons.split(",").length;
+          
+          let counter = 0;
+          var text = [];
+          var textanswer = [];
+          var textmerge = [];
+          while (counter < speakercount) {
+              text[counter] = `${data.schedule.conference.days[params2.getAll('day')].rooms[params2.getAll('room')][params2.getAll('track')].answers[counter].question}`
+              textanswer[counter] = `${data.schedule.conference.days[params2.getAll('day')].rooms[params2.getAll('room')][params2.getAll('track')].answers[counter].answer}`
+              var a = text[counter];
+              var b = parseInt(text[counter]);
+          console.log("Questionis: ", text[counter]);
+          counter++;
+          if (b == 140) {
+             console.log("YES");
+             $(".title").html("Q&A: " + textanswer);
+             break;
+          } else {
+	     console.log("NO");
+	     
+          console.log("Next");
+          }
+          }
+          console.log(text)
+        }
+          });
+      </script>
+      <script>
+      const params = new URLSearchParams(window.location.search)
+        for (const param of params) {
+        console.log(param)
+        }
+      let i = 1;
+      let x = 1
+      setTimeout(
+        function movein() {
+        setTimeout(function() {
+          const div = document.getElementById("lowerthird"); div.style.left = div.offsetLeft + 10 + "px";
+          i++;
+          if (i < 193) {
+          movein();
+          }
+        },0)
+      }, params.getAll('start'))
+      setTimeout(
+        function moveout() {
+        setTimeout(function() {
+          const div = document.getElementById("lowerthird"); div.style.left = div.offsetLeft + -10 + "px";
+          x++;
+          if (x < 193) {
+          moveout();
+          }
+        },0)
+      }, params.getAll('end'))
+      </script>
+  </body>
+</html>

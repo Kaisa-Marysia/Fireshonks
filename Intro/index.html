@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+      <script src="jquery.min.js"></script>
+  </head>
+  <body>
+  <div class="ocean">
+    <div class="bubble bubble--1"></div>
+    <div class="bubble bubble--2"></div>
+    <div class="bubble bubble--3"></div>
+    <div class="bubble bubble--4"></div>
+    <div class="bubble bubble--5"></div>
+    <div class="bubble bubble--6"></div>
+    <div class="bubble bubble--7"></div>
+    <div class="bubble bubble--8"></div>
+    <div class="bubble bubble--9"></div>
+    <div class="bubble bubble--10"></div>
+    <div class="bubble bubble--11"></div>
+    <div class="bubble bubble--12"></div>
+  </div>
+  <audio loop autoplay>
+    <source src="main.mp3" type="audio/mp3">
+  </audio>
+  <div class="pagebg"><div>
+  <div class="logo">
+    <div class="background"></div>
+    <div class="water"></div>
+    <div class="text">
+      <div class="item animated fadeInLeft">
+        <div class="inport">
+          <p class="title"></p>
+          <p class="author"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg>
+    <filter id="turbulence" x="0" y="0" width="100%" height="100%">
+      <feTurbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.02 0.05"></feTurbulence>
+      <feDisplacementMap scale="20" in="SourceGraphic"></feDisplacementMap>
+      <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="8s" keyTimes="0;1;1" values="0.002 0.02;0.004 0.008;0.02 0.06" />
+    </filter>
+  </svg>
+  <script>
+    const params2 = new URLSearchParams(window.location.search)
+    for (const param of params2) {
+      console.log(param)
+    }
+    $.getJSON('https://pretalx.c3voc.de/fire-shonks-2022/schedule/export/schedule.json', function(data) {
+      var text = `${data.schedule.conference.days[params2.getAll('day')].rooms[params2.getAll('room')][params2.getAll('track')].title}`
+       $(".title").html(text);
+    });
+    $.getJSON('https://pretalx.c3voc.de/fire-shonks-2022/schedule/export/schedule.json', function(data) {  
+      var arrpersons = `${data.schedule.conference.days[params2.getAll('day')].rooms[params2.getAll('room')][params2.getAll('track')].persons}`;
+      let speakercount = arrpersons.split(",").length;
+
+      let counter = 0;
+      var text = [];
+      var textmerge = [];
+      while (counter < speakercount) {
+        text[counter] = `${data.schedule.conference.days[params2.getAll('day')].rooms[params2.getAll('room')][params2.getAll('track')].persons[counter].public_name}`
+        console.log(text[counter]);
+        textmerge += text[counter];
+        counter++;
+        if (counter < speakercount) {
+          textmerge += ", ";
+          } else {
+            textmerge += "";
+          }
+        }
+      $(".author").html(textmerge);
+      });
+  </script>
+  </body>
+</html>

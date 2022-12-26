@@ -1,0 +1,336 @@
+html, body {
+  margin: 0; height: 100%; overflow: hidden
+}
+
+body {
+  background: #111a29;
+}
+
+.pagebg {
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+}
+
+.logo {
+  width: 450px;
+  height: 600px;
+  animation: fadeIn 6s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cooperation {
+  margin: 0px;
+  animation: fadeIn 3s;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+.r3s {
+  width: 400px;
+  margin-bottom: 5%;
+  margin-right: 5%;}
+
+.haecksen {
+  width: 400px;
+  margin-bottom: 5%;
+  margin-left: 5%;}
+
+.digitalcourage {
+  width: 920px;
+}
+
+.cologos {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+  margin-top: 13%;
+  margin-bottom: 13%;
+}
+
+.CC {
+  color: #e3e3e3;
+  font-size: 3.5vw;
+  font-weight: bold;
+  width: 100%;
+  z-index: 9999;
+  font-family: sans-serif;
+  margin: 0px;
+  animation-composition: replace;
+  animation: fadeOut 3s;
+  animation-fill-mode: both;
+  animation-delay: 5s;
+  color: #d2d4d7;
+}
+
+.curl {
+  color: #e3e3e3;
+  font-size: 3vw;
+  width: 100%;
+  z-index: 9999;
+  font-family: sans-serif;
+  margin: 0px;
+  animation-composition: replace;
+  animation: fadeOut 3s;
+  animation-fill-mode: both;
+  animation-delay: 5s;
+  color: #d2d4d7;
+}
+
+.text {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeIn 3s;
+}
+
+.fadetoblack {
+  width: 1920px;
+  height: 1080px;
+  background: black;
+  animation: fadeIn 3s;
+  animation-delay: 12s;
+  position: absolute;
+  z-index: 9999;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.shonk {
+  top: 10%;
+  background-image: url("img/shonk.png");
+  background-size: cover;
+  animation: fadeIn 2s;
+  animation-composition: replace;
+  animation: fadeOut 3s;
+  animation-fill-mode: both;
+  animation-delay: 5s;
+  height: 432px;
+  width: 450px;
+  opacity: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: absolute;
+  padding-left: 5px;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0; }
+  100% {opacity: 1; }
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0; }
+}
+
+@keyframes animateSprite {
+  0% {
+    background-position: -600px;
+  }
+  20% {
+    background-position: 0px;
+  }
+  25% {
+    background-position: -200px;
+  }
+  35% {
+    background-position: -400px;
+  }
+  40% {
+    background-position: -400px;
+  }
+  50% {
+    background-position: -200px;
+  }
+  60% {
+    background-position: -0px;
+  }
+  67% {
+    background-position: -600px;
+  }
+
+  100% {
+    background-position: -600px;
+  }
+}
+
+@keyframes swim {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(calc(-50vw - 100px), 0);
+  }
+  25% {
+    transform: translate(calc(-50vw - 100px), 0);
+  }
+  35% {
+    transform: translate(calc(-50vw - 100px), -20vh);
+  }
+  50% {
+    transform: translate(-25vw, 15vh);
+  }
+  60% {
+    transform: translate(-25vw, -20vh);
+  }
+  67% {
+    transform: translate(-25vw, -20vh);
+  }
+
+  100% {
+    transform: translate(calc(-100vw - 300px), 0);
+  }
+}
+.ocean {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 9999;
+}
+
+.bubble {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: white;
+  bottom: -30px;
+  opacity: 0.2;
+  animation: bubble 15s ease-in-out infinite,
+  sideWays 4s ease-in-out infinite alternate;
+}
+
+@keyframes bubble {
+  0% {
+    transform: translateY(0%);
+    opacity: 0.06;
+  }
+  100% {
+    transform: translateY(-120vh);
+  }
+}
+
+@keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 200px;
+  }
+}
+
+.bubble--1 {
+  left: 10%;
+  animation-delay: 0.5s;
+  animation-duration: 16s;
+  opacity: 0.2;
+}
+
+.bubble--2 {
+  width: 15px;
+  height: 15px;
+  left: 40%;
+  animation-delay: 1s;
+  animation-duration: 10s;
+  opacity: 0.1;
+}
+
+.bubble--3 {
+  width: 10px;
+  height: 10px;
+  left: 30%;
+  animation-delay: 5s;
+  animation-duration: 20s;
+  opacity: 0.3;
+}
+
+.bubble--4 {
+  width: 25px;
+  height: 25px;
+  left: 40%;
+  animation-delay: 8s;
+  animation-duration: 17s;
+  opacity: 0.2;
+}
+
+.bubble--5 {
+  width: 30px;
+  height: 30px;
+  left: 60%;
+  animation-delay: 10s;
+  animation-duration: 15s;
+  opacity: 0.1;
+}
+
+.bubble--6 {
+  width: 10px;
+  height: 10px;
+  left: 80%;
+  animation-delay: 3s;
+  animation-duration: 30s;
+  opacity: 0.4;
+}
+
+.bubble--7 {
+  width: 15px;
+  height: 15px;
+  left: 90%;
+  animation-delay: -7s;
+  animation-duration: 25s;
+  opacity: 0.3;
+}
+
+.bubble--9 {
+  width: 20px;
+  height: 20px;
+  left: 50%;
+  bottom: 30px;
+  animation-delay: -5s;
+  animation-duration: 19s;
+  opacity: 0.2;
+}
+
+.bubble--10 {
+  width: 40px;
+  height: 40px;
+  left: 30%;
+  bottom: 30px;
+  animation-delay: -21s;
+  animation-duration: 16s;
+  opacity: 0.3;
+}
+
+.bubble--11 {
+  width: 30px;
+  height: 30px;
+  left: 60%;
+  bottom: 30px;
+  animation-delay: -13.75s;
+  animation-duration: 20s;
+  opacity: 0.3;
+}
+
+.bubble--11 {
+  width: 25px;
+  height: 25px;
+  left: 90%;
+  bottom: 30px;
+  animation-delay: -10.5s;
+  animation-duration: 19s;
+  opacity: 0.3;
+}
+
+.animated{
+  -webkit-animation-duration:3s;
+  animation-duration:3s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+  animation-delay: 5s;

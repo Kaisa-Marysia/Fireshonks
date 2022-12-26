@@ -46,7 +46,7 @@
     <script src="jquery.min.js"></script>
   </head>
   <body>
-    <img id="logo" src="Bauchbinde-Fireshonks.png" alt="Blah">
+    <!-- <img id="logo" src="Bauchbinde-Fireshonks.png" alt="Blah"> -->
     <div id="lowerthird">
       <div id="lowerthirdlogo">
       </div>
@@ -65,10 +65,10 @@
           url: 'http://127.0.0.1:8000/fs.json',
           type: 'GET',
           success: function(data)
-          {  
+          {
           var arrpersons = `${data.schedule.conference.days[2].rooms["Fireshonks-Stream"][5].answers}`;
           let speakercount = arrpersons.split(",").length;
-          
+
           let counter = 0;
           var text = [];
           var textanswer = [];
@@ -86,7 +86,7 @@
              break;
           } else {
 	     console.log("NO");
-	     
+
           console.log("Next");
           }
           }

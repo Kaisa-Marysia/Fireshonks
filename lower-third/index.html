@@ -46,7 +46,7 @@
     <script src="jquery.min.js"></script>
   </head>
   <body>
-    <img id="logo" src="Bauchbinde-Fireshonks.png" alt="Blah">
+    <!-- <img id="logo" src="Bauchbinde-Fireshonks.png" alt="Blah"> -->
     <div id="lowerthird">
       <div id="lowerthirdlogo">
       </div>
@@ -64,7 +64,7 @@
           var text = `${data.schedule.conference.days[params2.getAll('day')].rooms[params2.getAll('room')][params2.getAll('track')].title}`
           $(".title").html(text);
           });
-          $.getJSON('https://pretalx.c3voc.de/fire-shonks-2022/schedule/export/schedule.json', function(data) {  
+          $.getJSON('https://pretalx.c3voc.de/fire-shonks-2022/schedule/export/schedule.json', function(data) {
           var arrpersons = `${data.schedule.conference.days[params2.getAll('day')].rooms[params2.getAll('room')][params2.getAll('track')].persons}`;
           let speakercount = arrpersons.split(",").length;
 

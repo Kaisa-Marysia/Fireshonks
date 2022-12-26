@@ -15,3 +15,7 @@ Name | HEX | CYMK | Font
 ![#111a29](https://placehold.co/100x30/111a29/png?text=Font+Outline) | #111a29 | (59%, 37%, 0%, 84%)
 ![#fe5551](https://placehold.co/100x30/fe5551/png?text=Fire) <br> ![#fe8b5d](https://placehold.co/100x30/fe8b5d/png?text=Fire) <br> ![#ffbb52](https://placehold.co/100x30/ffbb52/png?text=Fire) | #fe5551, <br >#fe8b5d, <br > #ffbb52 | (0%, 67%, 68%, 0%), <br > (0%, 45%, 63%, 0%), <br > (0%, 27%, 68%, 0%)
 ![#19253c](https://placehold.co/100x30/19253c/png?text=Rocks) <br> ![#1c2e49ff](https://placehold.co/100x30/1c2e49/png?text=Rocks) <br> ![#203657](https://placehold.co/100x30/203657/png?text=Rocks)| #19253c, <br >#1c2e49ff, <br>#203657 | (58%, 38%, 0%, 76%),<br>(62%, 37%, 0%, 71%),<br>(63%, 38%, 0%, 66%)
+
+## Font
+Jolly Lodger - Fireshonks Logo
+Sans-Serif - for all other
